@@ -10,10 +10,10 @@ pipeline {
     stages {
 
         stage('Clone Code') {
-            steps {
-                git 'https://github.com/kavya-sekar24/myapp1.git'
-            }
-        }
+    steps {
+        git branch: 'main', url: 'https://github.com/kavya-sekar24/myapp1.git'
+    }
+}
 
         stage('Build Docker Image') {
             steps {
