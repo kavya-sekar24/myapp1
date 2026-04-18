@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        IMAGE_NAME = "kavya-sekar24/myapp1"
+        IMAGE_NAME = "kavyasekar00/myapp1"
         CONTAINER_NAME = "myapp-container"
         PORT = "3000"
     }
